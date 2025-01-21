@@ -20,7 +20,7 @@
 #include <memory>
 #include <optional>
 #include <vector>
-
+std::set<std::pair<std::string, int>> members;
 static void DeserializeBlockBench(benchmark::Bench& bench)
 {
     DataStream stream(benchmark::data::block413567);
